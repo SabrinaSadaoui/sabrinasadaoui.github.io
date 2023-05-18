@@ -1,10 +1,11 @@
 .navbar {
   position: sticky; top: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
   background-color: var(--bg-color-l);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   height: 100px;
   z-index: 1;
 }

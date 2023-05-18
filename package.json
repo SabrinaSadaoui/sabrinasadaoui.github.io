@@ -6,7 +6,7 @@
   "homepage": "https://SabrinaSadaoui.github.io/sabrinasadaoui.github.io",
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "path": "^0.12.7",
     "path-browserify": "^1.0.1",
