@@ -2,7 +2,9 @@
     background:linear-gradient(-45deg,var(--bg-color-b),var(--bg-color-l));
     color: var(--white);
 }
-
+.monPortfolio p{
+    text-align: justify;
+}
 .sectionTitle{
     background-color: var(--white);
     /* border-bottom: 1px solid var(--main-color); */

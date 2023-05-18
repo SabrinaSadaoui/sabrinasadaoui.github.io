@@ -39,8 +39,8 @@ font-weight: bold;
 text-align: center;
 }
 
-.tool{
-    max-height: 50px;
+.listTools .tool{
+  height: 50px;
     width: auto;
   /* height: auto; */
   padding: 10px;

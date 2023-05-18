@@ -128,8 +128,20 @@ export default function Parcours() {
       nomParcours: "Institut G4",
       description: (
         <Description
-          text="Depuis 2023, j'ai rejoins le cycle d'ingénierie de l'institut G4 pour devenir Chef de Projet en Système d’Information où j'ai aussi diversifié mes compétences en me spécialisant en web/média. J'ai pu y apprendre les différentes méthodes et outils de gestion de projet, de la planiﬁcation à la construction de réponse à une Appel d'offre en passant par le Cahier des Charges, les spéciﬁcations fonctionnelles et techniques ainsi qu'un tableau de bord de gestion et pilotage"
-          boldWords={["Chef de Projet en Système d’Information", "web", "média", "gestion de projet", "planiﬁcation", "appel d'offre", "cahier des charges", "spéciﬁcations fonctionnelles", "techniques", "tableau de bord de gestion", "pilotage"]}
+          text="Depuis 2023, j'ai rejoins le cycle d'ingénierie de l'institut G4 pour devenir Cheffe de Projet en Système d’Information où j'ai aussi diversifié mes compétences en me spécialisant en web/média. J'ai pu y apprendre les différentes méthodes et outils de gestion de projet, de la planiﬁcation à la construction de réponse à une Appel d'offre en passant par le Cahier des Charges, les spéciﬁcations fonctionnelles et techniques ainsi qu'un tableau de bord de gestion et pilotage"
+          boldWords={[
+            "Cheffe de Projet en Système d’Information",
+            "web",
+            "média",
+            "gestion de projet",
+            "planiﬁcation",
+            "appel d'offre",
+            "cahier des charges",
+            "spéciﬁcations fonctionnelles",
+            "techniques",
+            "tableau de bord de gestion",
+            "pilotage",
+          ]}
         />
       ),
       skills: [
@@ -167,7 +179,17 @@ export default function Parcours() {
       description: (
         <Description
           text="De 2017 à 2020, j'ai intégré le cursus universitaire DUT Informatique. J’ai pu appendre différents langages de programmation et les mettre à profit dans plusieurs projets d'étude. J'ai également suivi le dernier semestre de cours en anglais. Je peux citer certains projets d'étude comme un Sudoku en Visual Basic, divers bases de données mySQL ou Access, des sites web en HTML, CSS avec du JavaScript ou sur Wix."
-          boldWords={["cours en anglais", "Visual Basic","bases de données","mySQL","Access","HTML","CSS","JavaScript", "Wix"]}
+          boldWords={[
+            "cours en anglais",
+            "Visual Basic",
+            "bases de données",
+            "mySQL",
+            "Access",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Wix",
+          ]}
         />
       ),
       skills: [
@@ -186,7 +208,7 @@ export default function Parcours() {
             mysql,
             php,
             jquery,
-            wix
+            wix,
           ],
         },
       ],

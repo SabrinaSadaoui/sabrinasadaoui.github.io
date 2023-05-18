@@ -80,6 +80,11 @@ justify-content: center;
 flex-wrap: wrap;
 }
 
+.tool{
+  padding: 10px;
+  }
+  
+
 .projetHov {
   text-decoration: none;
   color: var(--white);
