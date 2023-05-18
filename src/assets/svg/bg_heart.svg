@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="fondContact" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 1145.2 388.9">
+<style type="text/css">
+	.st0{fill:none;stroke:#FF69B4;stroke-miterlimit:10;}
+	.st1{opacity:0.9;fill:none;stroke:#FF69B4;stroke-miterlimit:10;enable-background:new    ;}
+	.st2{opacity:0.8;fill:none;stroke:#FF69B4;stroke-miterlimit:10;enable-background:new    ;}
+	.st3{opacity:0.7;fill:none;stroke:#FF69B4;stroke-miterlimit:10;enable-background:new    ;}
+	.st4{opacity:0.6;fill:none;stroke:#FF69B4;stroke-miterlimit:10;enable-background:new    ;}
+	.st5{opacity:0.5;fill:none;stroke:#FF69B4;stroke-miterlimit:10;enable-background:new    ;}
+	.st6{opacity:0.4;fill:none;stroke:#FF69B4;stroke-miterlimit:10;enable-background:new    ;}
+</style>
+<g>
+	<polyline class="st0" points="444.2,4.2 315.5,132.9 572.6,390 830,132.9 701.3,4.2 	"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<polyline class="st1" points="524.1,390 266.8,132.9 399.7,0 	"/>
+	<polyline class="st1" points="745.8,0 878.4,132.9 621.1,390 	"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<polyline class="st2" points="466.2,390 209.1,132.9 342,0 	"/>
+	<polyline class="st2" points="803.4,0 936.1,132.9 679,390 	"/>
+	<polyline class="st3" points="871.8,0 1004.7,132.9 747.5,390 	"/>
+	<polyline class="st3" points="397.8,390 140.8,132.9 273.5,0 	"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<polyline class="st4" points="316.1,390 59,132.9 191.9,0 	"/>
+	<polyline class="st4" points="953.2,0 1086.1,132.9 829.1,390 	"/>
+	<line class="st5" x1="1145.2" y1="170.4" x2="925.8" y2="390"/>
+	<line class="st5" x1="219.2" y1="390" x2="0" y2="170.7"/>
+	<line class="st0" x1="95.1" y1="0" x2="0" y2="95.1"/>
+	<line class="st0" x1="1145.2" y1="95.1" x2="1050.1" y2="0"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<line class="st6" x1="1145.2" y1="285.8" x2="1041" y2="390"/>
+	<line class="st6" x1="104.2" y1="390" x2="0" y2="285.8"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<path class="st0" d="M701.3,4.2"/>
+	<path class="st0" d="M701.3,4.2"/>
+</g>
+<g>
+	<polyline class="st0" points="440,0 444.2,4.2 572.6,132.9 701.3,4.2 705.5,0 	"/>
+</g>
+</svg>

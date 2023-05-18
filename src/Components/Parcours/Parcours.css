@@ -1,0 +1,26 @@
+#parcoursSection{
+    background-image: url('../../assets/svg/fondParcours.svg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.listParcours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
+
+
+.polygon{
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+.keyword{
+    font-weight: bold;
+    color: var(--main-color);
+}

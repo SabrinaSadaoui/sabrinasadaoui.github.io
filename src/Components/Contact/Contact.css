@@ -1,0 +1,46 @@
+#contactSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bg-color-b);
+    
+}
+#contactSection h2,h3{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+
+}
+
+#contactSection h2{
+
+  text-transform: uppercase;
+}
+
+#contactSection a{
+  color: var(--white);
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+#contactSection .contactLink{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactLink p{
+padding: 0 10px;
+}
+
+.contactLink:hover{
+  border-bottom: 1px solid var(--main-color);
+
+}
+.contactLink:hover .contactIcon {
+  color: var(--main-color);
+}

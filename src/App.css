@@ -1,0 +1,23 @@
+.monPortfolio{
+    background:linear-gradient(-45deg,var(--bg-color-b),var(--bg-color-l));
+    color: var(--white);
+}
+
+.sectionTitle{
+    background-color: var(--white);
+    /* border-bottom: 1px solid var(--main-color); */
+    padding: 5px 10px;
+    color: var(--bg-color-l);
+    text-align: right;
+    max-width: 600px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+    .sectionTitle{
+        background-color:transparent;
+        text-align: center;
+        max-width: none;
+        color: var(--white);
+    }
+  }

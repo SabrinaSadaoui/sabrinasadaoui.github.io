@@ -1,0 +1,210 @@
+#logoTitle #cadreRose{
+    animation: rotateCadre 10s linear infinite;
+    transform-origin: 118.3284px 125px;
+}
+
+#logoTitle #s-sad{
+    animation: rotateLetterSD 10s linear infinite;
+    transform-origin: 80.8249px 162.5002px;
+}
+
+#logoTitle #a-sad{
+    animation: rotateLetterAD 10s linear infinite;
+    transform-origin: 155.8262px 162.5002px;
+}
+
+#logoTitle #s-sab{
+    animation: rotateLetterSB 10s linear infinite;
+    transform-origin: 80.8249px 87.4989px;
+}
+
+#logoTitle #a-sab{
+    animation: rotateLetterAB 10s linear infinite;
+    transform-origin: 155.8262px 87.4989px;
+}
+
+ @keyframes rotateCadre{
+    0% {
+       transform:rotate(0deg);
+    }
+    5% {
+        transform:rotate(90deg);
+     }
+    25% {
+        transform:rotate(90deg);
+     }
+     30% {
+        transform:rotate(180deg);
+     }
+    50% {
+       transform:rotate(180deg);
+    }
+    55% {
+        transform:rotate(270deg);
+     }
+    75% {
+        transform:rotate(270deg);
+     }
+     80% {
+        transform:rotate(360deg);
+     }
+    100% {
+       transform:rotate(360deg);
+    }
+ }
+
+ @keyframes rotateLetterSD{
+     0% {
+        transform:rotate(-45deg);
+        fill: var(--white);
+     }
+     5% {
+        transform:rotate(0deg);
+        fill: var(--main-color);
+      }
+     25% {
+        transform:rotate(0deg);
+        fill: var(--main-color);
+      }
+      30% {
+        fill: var(--white);
+        transform:rotate(-45deg);
+      }
+     50% {
+        transform:rotate(-45deg);
+        fill: var(--white);
+     }
+     55% {
+         transform:rotate(-45deg);
+         fill: var(--white);
+      }
+     75% {
+         transform:rotate(-45deg);
+         fill: var(--white);
+      }
+      80% {
+         transform:rotate(-45deg);
+         fill: var(--white);
+      }
+     100% {
+        transform:rotate(-45deg);
+        fill: var(--white);
+     }
+ }
+
+ @keyframes rotateLetterSB{
+    0% {
+       transform:rotate(0deg);
+       fill: var(--white);
+    }
+    5% {
+       transform:rotate(0deg);
+       fill: var(--white);
+     }
+    25% {
+       transform:rotate(0deg);
+       fill: var(--white);
+     }
+     30% {
+       fill: var(--main-color);
+       transform:rotate(-45deg);
+     }
+    50% {
+       transform:rotate(-45deg);
+       fill: var(--main-color);
+    }
+    55% {
+        transform:rotate(0deg);
+        fill: var(--white);
+     }
+    75% {
+        transform:rotate(0deg);
+        fill: var(--white);
+     }
+     80% {
+        transform:rotate(0deg);
+        fill: var(--white);
+     }
+    100% {
+       transform:rotate(0deg);
+       fill: var(--white);
+    }
+}
+
+@keyframes rotateLetterAB{
+    0% {
+       transform:rotate(0deg);
+       fill: var(--white);
+    }
+    5% {
+       transform:rotate(0deg);
+       fill: var(--white);
+     }
+    25% {
+       transform:rotate(0deg);
+       fill: var(--white);
+     }
+     30% {
+       fill: var(--white);
+       transform:rotate(0deg);
+     }
+    50% {
+       transform:rotate(0deg);
+       fill: var(--white);
+    }
+    55% {
+        transform:rotate(45deg);
+        fill: var(--main-color);
+     }
+    75% {
+        transform:rotate(45deg);
+        fill: var(--main-color);
+     }
+     80% {
+        transform:rotate(0deg);
+        fill: var(--white);
+     }
+    100% {
+       transform:rotate(0deg);
+       fill: var(--white);
+    }
+}
+
+@keyframes rotateLetterAD{
+    0% {
+       transform:rotate(-45deg);
+       fill: var(--white);
+    }
+    5% {
+       transform:rotate(0deg);
+       fill: var(--white);
+     }
+    25% {
+       transform:rotate(0deg);
+       fill: var(--white);
+     }
+     30% {
+       fill: var(--white);
+       transform:rotate(0deg);
+     }
+    50% {
+       transform:rotate(0deg);
+       fill: var(--white);
+    }
+    55% {
+        transform:rotate(0deg);
+        fill: var(--white);
+     }
+    75% {
+        transform:rotate(0deg);
+        fill: var(--white);
+     }
+     80% {
+        transform:rotate(-45deg);
+        fill: var(--main-color);
+     }
+    100% {
+       transform:rotate(-45deg);
+       fill: var(--main-color);
+    }
+}

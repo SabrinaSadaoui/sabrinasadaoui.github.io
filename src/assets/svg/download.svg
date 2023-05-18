@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="download" transform="translate(-1444 -840)">
+    <path id="Union_1" data-name="Union 1" class="cls-1" d="M0,17.112H6.108v0h6.109L6.108,27.861Z" transform="translate(1463.965 847.267)"/>
+    <g id="Ellipse_36" data-name="Ellipse 36" class="cls-1" transform="translate(1444 840)">
+      <circle class="cls-2" cx="26.5" cy="26.5" r="26.5"/>
+      <circle class="cls-3" cx="26.5" cy="26.5" r="25.5"/>
+    </g>
+    <line id="Ligne_8" data-name="Ligne 8" class="cls-1" x2="20.832" transform="translate(1459.656 880.002)"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+.mySkills{
+  display: flex;
+  flex-direction: column;
+  /* max-width: 100%; */
+  margin-top: 20px;
+
+}
+
+.typeSkill{
+    background-color: var(--bg-color-b);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid var(--main-color); */
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.typeSkill h3{
+border-bottom: 1px solid var(--main-color);
+padding: 5px;
+text-transform: uppercase;
+color: var(--white);
+}
+
+.listTools{
+ display: flex;
+ flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-end;
+max-width: 70%;
+}
+.mySkills .title{
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+}
+
+.tool{
+    max-height: 50px;
+    width: auto;
+  /* height: auto; */
+  padding: 10px;
+} 
+
+@media (max-width: 450px) {
+  .typeSkill{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+  .listTools{
+   max-width: 100%;
+   justify-content: center;
+   }
+}
