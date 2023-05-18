@@ -1,20 +1,20 @@
 import React from "react";
 import "./Projects.css";
 import path from "path-browserify";
-import hip from "../../assets/projects/Hack_In_Paris.png";
-import kntd from "../../assets/projects/Logo_Kool_N_The_Dance.png";
-import hubvous from "../../assets/projects/Logo_Hub&Vous.png";
-import hubsite from "../../assets/projects/Hub_One.png";
-import sysdream from "../../assets/projects/sysdream.png";
-import bootstrap from "../../assets/tools/dev/bootstrap.png";
-import html5 from "../../assets/tools/dev/html5.png";
-import css3 from "../../assets/tools/dev/css3.png";
-import js from "../../assets/tools/dev/javascript.png";
-import Wordpress from "../../assets/tools/dev/wordpress.png";
-import jquery from "../../assets/tools/dev/jquery.png";
-import adobeXD from "../../assets/tools/design/adobexd.png";
-import vscode from "../../assets/tools/dev/vscode.png";
-import illustrator from "../../assets/tools/design/illustrator.png"
+import hip from "/projects/Hack_In_Paris.png";
+import kntd from "/projects/Logo_Kool_N_The_Dance.png";
+import hubvous from "/projects/Logo_Hub&Vous.png";
+import hubsite from "/projects/Hub_One.png";
+import sysdream from "/projects/SysDream.png";
+import bootstrap from "/tools/dev/bootstrap.png";
+import html5 from "/tools/dev/html5.png";
+import css3 from "/tools/dev/css3.png";
+import js from "/tools/dev/javascript.png";
+import Wordpress from "/tools/dev/wordpress.png";
+import jquery from "/tools/dev/jquery.png";
+import adobeXD from "/tools/design/adobexd.png";
+import vscode from "/tools/dev/vscode.png";
+import illustrator from "/tools/design/illustrator.png"
 
 export default function Projects() {
   const devList = [
