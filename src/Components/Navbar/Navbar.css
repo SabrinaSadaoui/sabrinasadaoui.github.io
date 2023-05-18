@@ -69,6 +69,7 @@
 @media (max-width: 600px) {
   .navbar-nav {
     display: none;
+    z-index: 1;
   }
   .nav-burger {
     display: flex;
