@@ -7,7 +7,7 @@
   background-color: var(--bg-color-l);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   height: 100px;
-
+  z-index: 1;
 }
 .navbar button {
   border: none;
@@ -69,7 +69,6 @@
 @media (max-width: 600px) {
   .navbar-nav {
     display: none;
-    z-index: 1;
   }
   .nav-burger {
     display: flex;
