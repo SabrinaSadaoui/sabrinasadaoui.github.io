@@ -23,7 +23,15 @@
 .cardParcours h3{
   padding: 20px 5px;
 }
-  
+
+.cardParcours h3{
+  padding: 20px 5px;
+}
+.descriptionParcours h3{
+ font-weight: normal;
+ text-align: justify;
+}
+
  .cardParcours .logoParcours {
     max-width: 100%;
     max-height: 100%;

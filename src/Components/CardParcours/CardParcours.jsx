@@ -10,7 +10,7 @@ const CardParcours =({role, contratFormation, description, srcImg, nomParcours, 
         </div>
     <h2>{contratFormation}</h2>
     <h2>{role}</h2>
-      <h3 className="description">{description}</h3>
+      <div className="descriptionParcours">{description}</div>
     </div>
     {children}
   

@@ -23,7 +23,7 @@ const Description = ({ text, boldWords }) => {
     return elements;
   };
 
-  return <p>{createHighlightedText()}</p>;
+  return <h3>{createHighlightedText()}</h3>;
 };
 
 export default Description;
