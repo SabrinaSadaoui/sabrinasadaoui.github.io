@@ -33,7 +33,6 @@ import wix from "/tools/dev/wix.png";
 import gantt from "/tools/management/gantt.png";
 import drive from "/tools/management/google-drive.png";
 import togglePlan from "/tools/management/togglplan.png";
-import eloqua from "/tools/management/eloqua.png";
 import gSearch from "/tools/management/google-search-console.png";
 import matomo from "/tools/management/matomo.svg";
 import teams from "/tools/management/teams.png";
@@ -69,7 +68,7 @@ export default function Parcours() {
       skills: [
         {
           typeSkill: "Gestion de Projet",
-          skillName: [togglePlan, teams, eloqua, matomo, gSearch, drive],
+          skillName: [togglePlan, teams, matomo, gSearch, drive],
         },
         {
           typeSkill: "Design",
