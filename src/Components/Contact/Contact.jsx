@@ -9,7 +9,7 @@ export default function Contact() {
     <div id="contactSection">
       <h2>Interressé par mon profil ?</h2>
       <h3>Contactez moi :</h3>
-      <a className="contactLink" href="sadaoui.sabrina@hotmail.com">
+      <a className="contactLink" href="mailto:sadaoui.sabrina@hotmail.com">
         <FontAwesomeIcon className="contactIcon" icon={faEnvelope} size="1x" />
         <p>Par Mail</p>
       </a>
