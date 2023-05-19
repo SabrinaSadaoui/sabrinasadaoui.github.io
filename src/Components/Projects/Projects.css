@@ -1,9 +1,7 @@
-/* #projectSep{
-    transform: rotate(180deg);
-} */
 #projectsSection {
   background: linear-gradient(var(--bg-color-l), var(--bg-color-b));
   padding: 20px 0;
+  scroll-margin-top: 100px;
 }
 #projectsSection .listsProjects {
   display: flex;

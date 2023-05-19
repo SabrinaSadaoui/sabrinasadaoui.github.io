@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
+    scroll-margin-top: 100px;
 }
 
 .listParcours{

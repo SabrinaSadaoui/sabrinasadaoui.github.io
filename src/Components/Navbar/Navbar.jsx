@@ -4,23 +4,21 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
-
-  const [Mobile, setMobile]=useState(false);
+  const [Mobile, setMobile] = useState(false);
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 600) {
         setMobile(false);
       }
     };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-
 
   return (
     <nav className="navbar">
-        <div className="navbar-logo">
+      <div className="navbar-logo">
+        <a href="#" onClick={() => setMobile(false)}>
           <svg
             version="1.1"
             id="logoNav"
@@ -79,27 +77,44 @@ export default function Navbar() {
 	c-0.4-1.3-0.7-2.9-0.9-4.7h-0.3c-0.1,1.5-0.4,3.1-0.9,4.6l-5.7,17.8H144.9z"
             />
           </svg>
-        </div>
-        <ul className={Mobile ? "navbar-nav-mobile" : "navbar-nav"}>
-          <li className="nav-item navbar-section">
-            <a href="#parcoursSection">Parcours</a>
-          </li>
-          <li className="nav-item navbar-section">
-            <a href="#projectsSection">Projets</a>
-          </li>
-          <li className="nav-item navbar-social">
-            <a
-              href="https://www.linkedin.com/in/sabrina-sadaoui-38bb18129/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </a>
-          </li>
-        </ul>
-        <button className="nav-burger" onClick={() => setMobile(!Mobile)}>
-          <svg xmlns="http://www.w3.org/2000/svg" id="burger-icon" viewBox="0 0 448 512" width="100%" height="100%"><path fill="var(--white)" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-        </button>
+        </a>
+      </div>
+      <ul className={Mobile ? "navbar-nav-mobile" : "navbar-nav"}>
+        <li className="nav-item navbar-section">
+          <a href="#parcoursSection" onClick={() => setMobile(false)}>
+            Parcours
+          </a>
+        </li>
+        <li className="nav-item navbar-section">
+          <a href="#projectsSection" onClick={() => setMobile(false)}>
+            Projets
+          </a>
+        </li>
+        <li className="nav-item navbar-social">
+          <a
+            onClick={() => setMobile(false)}
+            href="https://www.linkedin.com/in/sabrina-sadaoui-38bb18129/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+        </li>
+      </ul>
+      <button className="nav-burger" onClick={() => setMobile(!Mobile)}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="burger-icon"
+          viewBox="0 0 448 512"
+          width="100%"
+          height="100%"
+        >
+          <path
+            fill="var(--white)"
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </button>
     </nav>
   );
 }
