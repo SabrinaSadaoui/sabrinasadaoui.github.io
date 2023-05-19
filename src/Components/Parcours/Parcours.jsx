@@ -128,7 +128,7 @@ export default function Parcours() {
       nomParcours: "Institut G4",
       description: (
         <Description
-          text="Depuis 2023, j'ai rejoins le cycle d'ingénierie de l'institut G4 pour devenir Cheffe de Projet en Système d’Information où j'ai aussi diversifié mes compétences en me spécialisant en web/média. J'ai pu y apprendre les différentes méthodes et outils de gestion de projet, de la planiﬁcation à la construction de réponse à une Appel d'offre en passant par le Cahier des Charges, les spéciﬁcations fonctionnelles et techniques ainsi qu'un tableau de bord de gestion et pilotage"
+          text="Depuis 2020, j'ai rejoins le cycle d'ingénierie de l'institut G4 pour devenir Cheffe de Projet en Système d’Information où j'ai aussi diversifié mes compétences en me spécialisant en web/média. J'ai pu y apprendre les différentes méthodes et outils de gestion de projet, de la planiﬁcation à la construction de réponse à une Appel d'offre en passant par le Cahier des Charges, les spéciﬁcations fonctionnelles et techniques ainsi qu'un tableau de bord de gestion et pilotage"
           boldWords={[
             "Cheffe de Projet en Système d’Information",
             "web",
