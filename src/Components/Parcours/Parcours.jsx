@@ -52,7 +52,7 @@ export default function Parcours() {
       nomParcours: "Hub One",
       description: (
         <Description
-          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avac Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’ assistais le responsabable du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grace à Matomo et Google Search Console."
+          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avac Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’assistais le responsabble du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grâce à Matomo et Google Search Console."
           boldWords={[
             "développement front",
             "Wordpress",
@@ -96,7 +96,7 @@ export default function Parcours() {
       nomParcours: "Ryal Pièce Auto",
       description: (
         <Description
-          text="En 2021, j'ai intégré la société Ryal Pièce Auto pour ma première alternance en tant que Webmaster. Mes missions allaient de la rédaction des spécifications fonctionnelles et techniques d'un site e-commerce aux wireframes en passant par la conception de la base de données SQL. En complément, je devais aussi réaliser grace à la suite Adobe la communication visuelle de l’entreprise comme affiches publicitaires ou des flyers."
+          text="En 2021, j'ai intégré la société Ryal Pièce Auto pour ma première alternance en tant que Webmaster. Mes missions allaient de la rédaction des spécifications fonctionnelles et techniques d'un site web aux wireframes en passant par la conception de la base de données SQL. En complément, je devais aussi réaliser la communication visuelle de l’entreprise comme des affiches publicitaires ou des flyers en utilisant la suite Adobe."
           boldWords={[
             "spécifications fonctionnelles et techniques",
             "wireframes",
@@ -123,7 +123,7 @@ export default function Parcours() {
     {
       id: "3",
       contratFormation: "étudiante",
-      role: "Chef de Projet Web",
+      role: "Cheffe de Projet Web",
       imgParcours: g4,
       nomParcours: "Institut G4",
       description: (
@@ -178,9 +178,8 @@ export default function Parcours() {
       nomParcours: "IUT de Paris",
       description: (
         <Description
-          text="De 2017 à 2020, j'ai intégré le cursus universitaire DUT Informatique. J’ai pu appendre différents langages de programmation et les mettre à profit dans plusieurs projets d'étude. J'ai également suivi le dernier semestre de cours en anglais. Je peux citer certains projets d'étude comme un Sudoku en Visual Basic, divers bases de données mySQL ou Access, des sites web en HTML, CSS avec du JavaScript ou sur Wix."
+          text="De 2017 à 2020, j'ai intégré le cursus universitaire DUT Informatique. J’ai pu appendre différents langages de programmation et les mettre à profit dans plusieurs projets d'étude. J'ai eu l'occasion de développer un Sudoku en Visual Basic, divers bases de données mySQL ou Access, des sites web en HTML, CSS avec du JavaScript ou sur Wix. J'ai également suivi le dernier semestre de cours en anglais."
           boldWords={[
-            "cours en anglais",
             "Visual Basic",
             "bases de données",
             "mySQL",
@@ -189,6 +188,7 @@ export default function Parcours() {
             "CSS",
             "JavaScript",
             "Wix",
+            "cours en anglais",
           ]}
         />
       ),

@@ -76,4 +76,7 @@
   #headerSection {
     align-items: flex-end;
   }
+  .headerText h3 {
+    text-align: left;
+  }
 }
