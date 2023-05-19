@@ -85,7 +85,7 @@ export default function Navbar() {
             <a href="#parcoursSection">Parcours</a>
           </li>
           <li className="nav-item navbar-section">
-            <a href="#projectsSection">Projects</a>
+            <a href="#projectsSection">Projets</a>
           </li>
           <li className="nav-item navbar-social">
             <a
