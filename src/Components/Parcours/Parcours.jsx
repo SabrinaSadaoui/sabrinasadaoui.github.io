@@ -133,6 +133,8 @@ export default function Parcours() {
             "Cheffe de Projet en Système d’Information",
             "web",
             "média",
+            "cycle en V",
+            "méthode Agile",
             "gestion de projet",
             "planiﬁcation",
             "appel d'offre",
