@@ -52,7 +52,7 @@ export default function Parcours() {
       nomParcours: "Hub One",
       description: (
         <Description
-          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avac Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’assistais le responsabble du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grâce à Matomo et Google Search Console."
+          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avac Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’assistais le responsable du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grâce à Matomo et Google Search Console."
           boldWords={[
             "développement front",
             "Wordpress",
@@ -83,7 +83,7 @@ export default function Parcours() {
           ],
         },
         {
-          typeSkill: "Developpement",
+          typeSkill: "Développement",
           skillName: [html5, css3, bootstrap, js, jquery, Wordpress, vscode],
         },
       ],
@@ -111,7 +111,7 @@ export default function Parcours() {
           skillName: [Figma, photoshop, illustrator, indesign, acrobat],
         },
         {
-          typeSkill: "Developpement",
+          typeSkill: "Développement",
           skillName: [mysql],
         },
         {
@@ -128,7 +128,7 @@ export default function Parcours() {
       nomParcours: "Institut G4",
       description: (
         <Description
-          text="Depuis 2020, j'ai rejoins le cycle d'ingénierie de l'institut G4 pour devenir Cheffe de Projet en Système d’Information où j'ai aussi diversifié mes compétences en me spécialisant en web/média. J'ai pu y apprendre les différentes méthodes et outils de gestion de projet, de la planiﬁcation à la construction de réponse à une Appel d'offre en passant par le Cahier des Charges, les spéciﬁcations fonctionnelles et techniques ainsi qu'un tableau de bord de gestion et pilotage"
+          text="Depuis 2020, j'ai rejoins le cycle d'ingénierie de l'institut G4 pour devenir Cheffe de Projet en Système d’Information où j'ai aussi diversifié mes compétences en me spécialisant en web/média. J'ai pu y apprendre les différentes méthodes de gestion de projet et utiliser divers outils, de la planiﬁcation à la construction de réponse à un appel d'offre en passant par le cahier des charges, les spéciﬁcations fonctionnelles et techniques ainsi qu'un tableau de bord de gestion et pilotage"
           boldWords={[
             "Cheffe de Projet en Système d’Information",
             "web",
@@ -150,7 +150,7 @@ export default function Parcours() {
           skillName: [Figma, photoshop, illustrator, indesign, adobeXD, moqups],
         },
         {
-          typeSkill: "Developpement",
+          typeSkill: "Développement",
           skillName: [
             reactlogo,
             git,
@@ -194,7 +194,7 @@ export default function Parcours() {
       ),
       skills: [
         {
-          typeSkill: "Developpement",
+          typeSkill: "Développement",
           skillName: [
             html5,
             css3,
