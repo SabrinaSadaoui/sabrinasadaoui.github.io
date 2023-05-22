@@ -52,7 +52,7 @@ export default function Parcours() {
       nomParcours: "Hub One",
       description: (
         <Description
-          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avac Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’assistais le responsable du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grâce à Matomo et Google Search Console."
+          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avec Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’assistais le responsable du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grâce à Matomo et Google Search Console."
           boldWords={[
             "développement front",
             "Wordpress",
