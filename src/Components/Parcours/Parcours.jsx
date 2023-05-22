@@ -180,7 +180,7 @@ export default function Parcours() {
       nomParcours: "IUT de Paris",
       description: (
         <Description
-          text="De 2017 à 2020, j'ai intégré le cursus universitaire DUT Informatique. J’ai pu appendre différents langages de programmation et les mettre à profit dans plusieurs projets d'étude. J'ai eu l'occasion de développer un Sudoku en Visual Basic, divers bases de données mySQL ou Access, des sites web en HTML, CSS avec du JavaScript ou sur Wix. J'ai également suivi le dernier semestre de cours en anglais."
+          text="De 2017 à 2020, j'ai intégré le cursus universitaire DUT Informatique. J’ai pu apprendre différents langages de programmation et les mettre à profit dans plusieurs projets d'étude. J'ai eu l'occasion de développer un Sudoku en Visual Basic, divers bases de données mySQL ou Access, des sites web en HTML, CSS avec du JavaScript ou sur Wix. J'ai également suivi le dernier semestre de cours en anglais."
           boldWords={[
             "Visual Basic",
             "bases de données",
