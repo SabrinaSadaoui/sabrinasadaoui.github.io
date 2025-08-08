@@ -10,7 +10,7 @@ export default function Header() {
         <LogoSVG colorC="var(--main-color)" colorT="var(--white)" />
         <div className="headerText">
           <h1>WebMaster & Cheffe de Projet Web/Média</h1>
-          <h3>Bonjour, je m'appelle Sabrina Sadaoui, j'ai 25 ans et je suis actuellement étudiante en dernière année d'ingénieurie web/média pour devenir cheffe de projet web. Je me spécialise en développement front, design et gestion de projet</h3>
+          <h3>Bonjour, je m'appelle Sabrina Sadaoui, Cheffe de projet et Webmaster. Je me spécialise en gestion de projet, développement front et design</h3>
         </div>
       </div>
       <div className="photoProfile flex-item">
