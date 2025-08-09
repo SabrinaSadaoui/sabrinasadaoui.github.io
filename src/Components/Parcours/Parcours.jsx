@@ -46,6 +46,48 @@ export default function Parcours() {
   const parcoursList = [
     {
       id: "1",
+      /*contratFormation: "CDI",*/
+      role: "Cheffe de projet 360 / Webmaster",
+      imgParcours: hubone,
+      nomParcours: "WEAD / TAG Heuer",
+      description: (
+        <Description
+          text="Depuis septembre 2023, j'opère au sein de l'agence WEAD en tant que Cheffe de projet 360 et en tant que Webmaster externe auprès de TAG Heuer."
+          boldWords={[
+            "développement front",
+            "Wordpress",
+            "BootStrap",
+            "maquettes",
+            "suite Adobe",
+            "suivi de projet",
+            "Eloqua",
+            "Matomo",
+            "Google Search Console",
+          ]}
+        />
+      ),
+      skills: [
+        {
+          typeSkill: "Gestion de Projet",
+          skillName: [togglePlan, teams, eloqua, matomo, gSearch, drive],
+        },
+        {
+          typeSkill: "Design",
+          skillName: [
+            acrobat,
+            photoshop,
+            rushpremiere,
+            adobeXD
+          ],
+        },
+        {
+          typeSkill: "CRM / Développement",
+          skillName: [html5, css3, Wordpress, vscode, salesforce],
+        },
+      ],
+    },
+    {
+      id: "2",
       contratFormation: "Apprentie",
       role: "Webmaster",
       imgParcours: hubone,
@@ -89,7 +131,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "2",
+      id: "3",
       contratFormation: "Apprentie",
       role: "Webmaster",
       imgParcours: rpa,
@@ -121,7 +163,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "3",
+      id: "4",
       contratFormation: "étudiante",
       role: "Cheffe de Projet Web",
       imgParcours: g4,
@@ -173,7 +215,7 @@ export default function Parcours() {
     },
 
     {
-      id: "4",
+      id: "5",
       contratFormation: "étudiante",
       role: "DUT Informatique",
       imgParcours: iut,
