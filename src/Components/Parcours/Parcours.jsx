@@ -52,17 +52,15 @@ export default function Parcours() {
       nomParcours: "WEAD / TAG Heuer",
       description: (
         <Description
-          text="Depuis septembre 2023, j'opère au sein de l'agence WEAD en tant que Cheffe de projet 360 et en tant que Webmaster externe auprès de TAG Heuer."
+          text="Depuis septembre 2023, je suis Cheffe de projet 360 au sein de l'agence WEAD et Webmaster externe pour TAG Heuer. Dans ce cadre, je collabore étroitement avec la Digital Experience Team pour optimiser l'expérience digitale de la marque. 
+          Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce. En parallèle, je participe également à la conception de maquettes sur Figma, afin de garantir une expérience utilisateur fluide et esthétique."
           boldWords={[
-            "développement front",
-            "Wordpress",
-            "BootStrap",
-            "maquettes",
-            "suite Adobe",
-            "suivi de projet",
-            "Eloqua",
-            "Matomo",
-            "Google Search Console",
+            "Webmaster",
+            "Cheffe de projet",
+            "Jira",
+            "salesforce",
+            "figma",
+            "suivi de projet"
           ]}
         />
       ),
