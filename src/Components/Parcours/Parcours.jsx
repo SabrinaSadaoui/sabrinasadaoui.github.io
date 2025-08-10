@@ -46,6 +46,49 @@ export default function Parcours() {
   const parcoursList = [
     {
       id: "1",
+      /*contratFormation: "CDI",*/
+      role: "Cheffe de projet 360 / Webmaster",
+      imgParcours: hubone,
+      nomParcours: "WEAD / TAG Heuer",
+      description: (
+        <Description
+          text="Depuis septembre 2023, je suis Cheffe de projet 360 au sein de l'agence WEAD et Webmaster externe pour TAG Heuer. Dans ce cadre, je collabore étroitement avec la Digital Experience Team pour optimiser l'expérience digitale de la marque.
+
+Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce. En parallèle, je participe également à la conception de maquettes sur Figma, afin de garantir une expérience utilisateur fluide et esthétique.
+
+Au sein de l’agence WEAD, j’ai également été responsable du webmastering du site et de la gestion/support de Furious, en charge de la gestion de la production de l’agence. Cette mission comprenait la coordination avec les équipes techniques et créatives, la mise à jour du site en fonction des besoins clients et la gestion de la production de contenu digital, tout en assurant la bonne communication et le bon suivi des projets."
+          boldWords={[
+            "Webmaster",
+            "Cheffe de projet",
+            "Jira",
+            "salesforce",
+            "figma",
+            "suivi de projet"
+          ]}
+        />
+      ),
+      skills: [
+        {
+          typeSkill: "Gestion de Projet",
+          skillName: [togglePlan, teams, eloqua, matomo, gSearch, drive],
+        },
+        {
+          typeSkill: "Design",
+          skillName: [
+            acrobat,
+            photoshop,
+            rushpremiere,
+            adobeXD
+          ],
+        },
+        {
+          typeSkill: "CRM / Développement",
+          skillName: [html5, css3, Wordpress, vscode, salesforce],
+        },
+      ],
+    },
+    {
+      id: "2",
       contratFormation: "Apprentie",
       role: "Webmaster",
       imgParcours: hubone,
@@ -89,7 +132,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "2",
+      id: "3",
       contratFormation: "Apprentie",
       role: "Webmaster",
       imgParcours: rpa,
@@ -121,7 +164,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "3",
+      id: "4",
       contratFormation: "étudiante",
       role: "Cheffe de Projet Web",
       imgParcours: g4,
@@ -173,7 +216,7 @@ export default function Parcours() {
     },
 
     {
-      id: "4",
+      id: "5",
       contratFormation: "étudiante",
       role: "DUT Informatique",
       imgParcours: iut,
