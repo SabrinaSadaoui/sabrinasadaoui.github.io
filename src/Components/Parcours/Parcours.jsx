@@ -57,8 +57,11 @@ export default function Parcours() {
       nomParcours: "WEAD / TAG Heuer",
       description: (
         <Description
-          text="Depuis septembre 2023, je suis Cheffe de projet 360 au sein de l'agence WEAD et Webmaster externe pour TAG Heuer. Dans ce cadre, je collabore étroitement avec la Digital Experience Team pour optimiser l'expérience digitale de la marque. Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce. 
-          En parallèle, je participe également à la conception de maquettes sur Figma, afin de garantir une expérience utilisateur fluide et esthétique. Au sein de l’agence WEAD, j’ai également été responsable du webmastering du site et de la gestion/support de Furious, en charge de la gestion de la production de l’agence. Cette mission comprenait la coordination avec les équipes techniques et créatives, la mise à jour du site en fonction des besoins clients et la gestion de la production de contenu digital, tout en assurant la bonne communication et le bon suivi des projets."
+          text="Depuis septembre 2023, je suis Cheffe de projet 360 au sein de l'agence WEAD et Webmaster externe pour TAG Heuer. 
+          Dans ce cadre, j'assiste la Digital Experience Team pour optimiser l'expérience utilisateur des utilisateurs du site de la marque. 
+          Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce ainsi que la conception de leur maquettes sur Figma. 
+          Au sein de l’agence WEAD, j’ai également été responsable du webmastering du site et de la gestion/support de Furious, en charge de la gestion de la production de l’agence. 
+          Cette mission comprenait la coordination avec les équipes techniques et créatives, la mise à jour du site en fonction des besoins clients et la gestion de la production de contenu digital, tout en assurant la bonne communication et le bon suivi des projets."
           boldWords={[
             "Jira",
             "salesforce",
