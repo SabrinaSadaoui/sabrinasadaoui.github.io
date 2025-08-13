@@ -65,10 +65,9 @@ export default function Parcours() {
           Au sein de l’agence WEAD, je suis également en charge du webmastering du site web et de la gestion/support de Furious, notre logiciel de gestion de projets, facturation & CRM."
           boldWords={[
             "Jira",
-            "salesforce",
+            "Salesforce",
             "Figma",
-            "webmastering",
-            "suivi de projet"
+            "webmastering"
           ]}
         />
       ),
