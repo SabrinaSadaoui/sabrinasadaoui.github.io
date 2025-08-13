@@ -34,6 +34,7 @@ import vscode from "/tools/dev/vscode.png";
 import angular from "/tools/dev/angular.png";
 import wix from "/tools/dev/wix.png";
 import gantt from "/tools/management/gantt.png";
+import furious from "/tools/management/furious.png";
 import drive from "/tools/management/google-drive.png";
 import togglePlan from "/tools/management/togglplan.png";
 import gSearch from "/tools/management/google-search-console.png";
