@@ -74,7 +74,7 @@ export default function Parcours() {
       skills: [
         {
           typeSkill: "Gestion de Projet",
-          skillName: [jira, teams, gSearch, drive],
+          skillName: [jira, teams, gSearch, drive, furious],
         },
         {
           typeSkill: "Design",
