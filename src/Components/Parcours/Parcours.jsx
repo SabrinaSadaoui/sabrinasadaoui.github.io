@@ -80,7 +80,7 @@ export default function Parcours() {
             photoshop,
             rushpremiere,
             adobeXD,
-            figma
+            Figma
           ],
         },
         {
