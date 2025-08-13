@@ -137,51 +137,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "2",
-      contratFormation: "Apprentie",
-      role: "Webmaster",
-      imgParcours: hubone,
-      nomParcours: "Hub One",
-      description: (
-        <Description
-          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avec Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’assistais le responsable du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grâce à Matomo et Google Search Console."
-          boldWords={[
-            "développement front",
-            "Wordpress",
-            "BootStrap",
-            "maquettes",
-            "suite Adobe",
-            "suivi de projet",
-            "Eloqua",
-            "Matomo",
-            "Google Search Console",
-          ]}
-        />
-      ),
-      skills: [
-        {
-          typeSkill: "Gestion de Projet",
-          skillName: [togglePlan, teams, eloqua, matomo, gSearch, drive],
-        },
-        {
-          typeSkill: "Design",
-          skillName: [
-            acrobat,
-            photoshop,
-            premierePro,
-            indesign,
-            illustrator,
-            adobeXD,
-          ],
-        },
-        {
-          typeSkill: "Développement",
-          skillName: [html5, css3, bootstrap, js, jquery, Wordpress, vscode],
-        },
-      ],
-    },
-    {
-      id: "2",
+      id: "3",
       contratFormation: "Apprentie",
       role: "Webmaster",
       imgParcours: rpa,
@@ -213,7 +169,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "3",
+      id: "4",
       contratFormation: "étudiante",
       role: "Cheffe de Projet Web",
       imgParcours: g4,
@@ -265,7 +221,7 @@ export default function Parcours() {
     },
 
     {
-      id: "4",
+      id: "5",
       contratFormation: "étudiante",
       role: "DUT Informatique",
       imgParcours: iut,
