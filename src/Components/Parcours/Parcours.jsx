@@ -22,6 +22,7 @@ import photoshop from "/tools/design/photoshop.png";
 import illustrator from "/tools/design/illustrator.png";
 import indesign from "/tools/design/indesing.png";
 import premierePro from "/tools/design/premierepro.png";
+import rushpremiere from "/tools/design/premiere-rush.png";
 import acrobat from "/tools/design/acrobat.png";
 import Figma from "/tools/design/figma.png";
 import php from "/tools/dev/php.png";
