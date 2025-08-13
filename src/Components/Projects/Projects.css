@@ -91,7 +91,6 @@ flex-wrap: wrap;
 .projetDev h3,.projetLogo h3 {
   padding: 5px;
   font-weight: bold;
-  border-bottom: 1px solid rgba(var(--main-color), 0);
 }
 
 .image-container .imgProj {
@@ -107,8 +106,8 @@ flex-wrap: wrap;
 .projetHov:hover .image-container {
   border: 1px solid var(--main-color);
   box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 .projetHov:hover .imgProj {
   opacity: 0.2;
@@ -119,6 +118,8 @@ flex-wrap: wrap;
   z-index: 1;
 }
 
+/*
 .projetHov:hover h3 {
   border-bottom: 1px solid var(--main-color);
 }
+*/
