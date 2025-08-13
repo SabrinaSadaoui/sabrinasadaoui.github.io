@@ -36,7 +36,9 @@ export default function Projects() {
       lienProject: "www.hubone.fr",
       imgP: hubsite,
       skillName: [html5, css3, js, jquery, bootstrap, vscode, Wordpress],
-    },
+    }    
+    /*
+    ,
     {
       id: "3",
       projectName: "Hack In Paris",
@@ -51,6 +53,7 @@ export default function Projects() {
       imgP: sysdream,
       skillName: [html5, css3, bootstrap, vscode,  Wordpress],
     },
+    */
   ];
 
   const logoList = [
