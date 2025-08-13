@@ -75,7 +75,11 @@ export default function Parcours() {
       skills: [
         {
           typeSkill: "Gestion de Projet",
-          skillName: [jira, teams, gSearch, drive, furious],
+          skillName: [jira, teams, drive, furious],
+        },
+        {
+          typeSkill: "CRM / Développement",
+          skillName: [salesforce, html5, css3, Wordpress, vscode, squarespace],
         },
         {
           typeSkill: "Design",
@@ -86,11 +90,7 @@ export default function Parcours() {
             adobeXD,
             Figma
           ],
-        },
-        {
-          typeSkill: "CRM / Développement",
-          skillName: [salesforce, html5, css3, Wordpress, vscode, squarespace],
-        },
+        }
       ],
     },
     {
