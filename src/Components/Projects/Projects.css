@@ -91,6 +91,7 @@ flex-wrap: wrap;
 .projetDev h3,.projetLogo h3 {
   padding: 5px;
   font-weight: bold;
+  border-bottom: 1px solid rgba(var(--main-color), 0);
 }
 
 .image-container .imgProj {
