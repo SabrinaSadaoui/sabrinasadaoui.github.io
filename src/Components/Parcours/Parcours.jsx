@@ -45,7 +45,7 @@ import trello from "/tools/management/trello.png";
 import xmind from "/tools/management/xmind.webp";
 import moqups from "/tools/management/moqups.webp";
 import salesforce from "/tools/management/Salesforce.com_logo.svg.png";
-import jira from "/tools/management/jira.svg.png";
+import jira from "/tools/management/jira.png";
 
 export default function Parcours() {
   const parcoursList = [
@@ -74,7 +74,7 @@ export default function Parcours() {
       skills: [
         {
           typeSkill: "Gestion de Projet",
-          skillName: [jira, teams, gSearch, drive],
+          skillName: [jira, teams, gSearch, drive, furious],
         },
         {
           typeSkill: "Design",
