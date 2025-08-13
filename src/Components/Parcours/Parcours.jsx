@@ -61,11 +61,11 @@ export default function Parcours() {
           Dans ce cadre, j'assiste la Digital Experience Team pour optimiser l'expérience utilisateur des visiteurs du site de la marque. 
           Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce ainsi que la conception de leur maquettes sur Figma.
           Cette mission comprend les échanges avec les équipes produits, editoriales et créatives.
-          Au sein de l’agence WEAD, je suis également en charge du webmastering du site web et de la gestion/support de la production de l’agence sur Furious."
+          Au sein de l’agence WEAD, je suis également en charge du webmastering du site web et de la gestion/support de Furious, notre logiciel de gestion de projets, facturation & CRM."
           boldWords={[
             "Jira",
             "salesforce",
-            "figma",
+            "Figma",
             "webmastering",
             "suivi de projet"
           ]}
