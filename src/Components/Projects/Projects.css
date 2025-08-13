@@ -98,10 +98,16 @@ flex-wrap: wrap;
   width: 100%;
   height: auto;
   transition: opacity 0.3s ease;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .projetHov:hover .image-container {
   border: 1px solid var(--main-color);
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 .projetHov:hover .imgProj {
   opacity: 0.2;
