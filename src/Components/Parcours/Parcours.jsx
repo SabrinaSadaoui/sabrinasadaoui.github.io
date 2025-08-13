@@ -51,7 +51,7 @@ export default function Parcours() {
   const parcoursList = [
     {
       id: "1",
-      /*contratFormation: "CDI",*/
+      contratFormation: "CDI",
       role: "Cheffe de projet 360 / Webmaster",
       imgParcours: wead,
       nomParcours: "WEAD / TAG Heuer",
@@ -71,7 +71,7 @@ export default function Parcours() {
       skills: [
         {
           typeSkill: "Gestion de Projet",
-          skillName: [togglePlan, teams, eloqua, matomo, gSearch, drive],
+          skillName: [jira, teams, gSearch, drive],
         },
         {
           typeSkill: "Design",
@@ -79,12 +79,57 @@ export default function Parcours() {
             acrobat,
             photoshop,
             rushpremiere,
-            adobeXD
+            adobeXD,
+            figma
           ],
         },
         {
           typeSkill: "CRM / Développement",
-          skillName: [html5, css3, Wordpress, vscode, salesforce, jira, squarespace],
+          skillName: [salesforce, html5, css3, Wordpress, vscode, squarespace],
+        },
+      ],
+    },
+    {
+      id: "2",
+      contratFormation: "Apprentie",
+      role: "Webmaster",
+      imgParcours: hubone,
+      nomParcours: "Hub One",
+      description: (
+        <Description
+          text="De 2021 à 2023, j'accompagnais le service marketing sur le développement front des sites de l’entreprise avec Wordpress et BootStrap ainsi que sur la réalisation de visuels, maquettes et vidéos à l'aide de la suite Adobe pour la communication externe/interne de l’entreprise. De plus, j’assistais le responsable du pôle digital sur le suivi de projet, les campagnes d'emailing avec Eloqua et la réalisation de KPI grâce à Matomo et Google Search Console."
+          boldWords={[
+            "développement front",
+            "Wordpress",
+            "BootStrap",
+            "maquettes",
+            "suite Adobe",
+            "suivi de projet",
+            "Eloqua",
+            "Matomo",
+            "Google Search Console",
+          ]}
+        />
+      ),
+      skills: [
+        {
+          typeSkill: "Gestion de Projet",
+          skillName: [togglePlan, teams, eloqua, matomo, gSearch, drive],
+        },
+        {
+          typeSkill: "Design",
+          skillName: [
+            acrobat,
+            photoshop,
+            premierePro,
+            indesign,
+            illustrator,
+            adobeXD,
+          ],
+        },
+        {
+          typeSkill: "Développement",
+          skillName: [html5, css3, bootstrap, js, jquery, Wordpress, vscode],
         },
       ],
     },
