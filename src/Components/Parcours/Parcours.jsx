@@ -132,7 +132,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "3",
+      id: "2",
       contratFormation: "Apprentie",
       role: "Webmaster",
       imgParcours: rpa,
@@ -164,7 +164,7 @@ export default function Parcours() {
       ],
     },
     {
-      id: "4",
+      id: "3",
       contratFormation: "étudiante",
       role: "Cheffe de Projet Web",
       imgParcours: g4,
@@ -216,7 +216,7 @@ export default function Parcours() {
     },
 
     {
-      id: "5",
+      id: "4",
       contratFormation: "étudiante",
       role: "DUT Informatique",
       imgParcours: iut,
