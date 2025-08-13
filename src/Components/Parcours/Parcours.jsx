@@ -7,6 +7,7 @@ import iut from "/experiences/iutparis.png";
 import g4 from "/experiences/G4-couleur-2.png";
 import rpa from "/experiences/rpa.png";
 import hubone from "/experiences/LOGO_HUBONE2019_W.png";
+import wead from "/experiences/WEAD_X_TAG_Heuer.png";
 import reactlogo from "/tools/dev/react.png";
 import git from "/tools/dev/git.png";
 import bootstrap from "/tools/dev/bootstrap.png";
@@ -14,6 +15,7 @@ import html5 from "/tools/dev/html5.png";
 import css3 from "/tools/dev/css3.png";
 import js from "/tools/dev/javascript.png";
 import Wordpress from "/tools/dev/wordpress.png";
+import squarespace from "/tools/dev/squarespace.png";
 import jquery from "/tools/dev/jquery.png";
 import adobeXD from "/tools/design/adobexd.png";
 import photoshop from "/tools/design/photoshop.png";
@@ -41,6 +43,8 @@ import miro from "/tools/management/miro.png";
 import trello from "/tools/management/trello.png";
 import xmind from "/tools/management/xmind.webp";
 import moqups from "/tools/management/moqups.webp";
+import salesforce from "/tools/management/Salesforce.com_logo.svg.png";
+import jira from "/tools/management/jira.png";
 
 export default function Parcours() {
   const parcoursList = [
@@ -48,15 +52,11 @@ export default function Parcours() {
       id: "1",
       /*contratFormation: "CDI",*/
       role: "Cheffe de projet 360 / Webmaster",
-      imgParcours: hubone,
+      imgParcours: wead,
       nomParcours: "WEAD / TAG Heuer",
       description: (
         <Description
-          text="Depuis septembre 2023, je suis Cheffe de projet 360 au sein de l'agence WEAD et Webmaster externe pour TAG Heuer. Dans ce cadre, je collabore étroitement avec la Digital Experience Team pour optimiser l'expérience digitale de la marque.
-
-Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce. En parallèle, je participe également à la conception de maquettes sur Figma, afin de garantir une expérience utilisateur fluide et esthétique.
-
-Au sein de l’agence WEAD, j’ai également été responsable du webmastering du site et de la gestion/support de Furious, en charge de la gestion de la production de l’agence. Cette mission comprenait la coordination avec les équipes techniques et créatives, la mise à jour du site en fonction des besoins clients et la gestion de la production de contenu digital, tout en assurant la bonne communication et le bon suivi des projets."
+          text="Depuis septembre 2023, je suis Cheffe de projet 360 au sein de l'agence WEAD et Webmaster externe pour TAG Heuer. Dans ce cadre, je collabore étroitement avec la Digital Experience Team pour optimiser l'expérience digitale de la marque. Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce. En parallèle, je participe également à la conception de maquettes sur Figma, afin de garantir une expérience utilisateur fluide et esthétique. Au sein de l’agence WEAD, j’ai également été responsable du webmastering du site et de la gestion/support de Furious, en charge de la gestion de la production de l’agence. Cette mission comprenait la coordination avec les équipes techniques et créatives, la mise à jour du site en fonction des besoins clients et la gestion de la production de contenu digital, tout en assurant la bonne communication et le bon suivi des projets."
           boldWords={[
             "Webmaster",
             "Cheffe de projet",
@@ -83,7 +83,7 @@ Au sein de l’agence WEAD, j’ai également été responsable du webmastering 
         },
         {
           typeSkill: "CRM / Développement",
-          skillName: [html5, css3, Wordpress, vscode, salesforce],
+          skillName: [html5, css3, Wordpress, vscode, salesforce, jira, squarespace],
         },
       ],
     },
