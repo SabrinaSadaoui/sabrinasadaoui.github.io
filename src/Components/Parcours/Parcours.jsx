@@ -59,10 +59,9 @@ export default function Parcours() {
       description: (
         <Description
           text="Depuis septembre 2023, je suis Cheffe de projet 360 au sein de l'agence WEAD et Webmaster externe pour TAG Heuer. 
-          Dans ce cadre, j'assiste la Digital Experience Team pour optimiser l'expérience utilisateur des visiteurs du site de la marque. 
-          Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans JIRA à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce ainsi que la conception de leur maquettes sur Figma.
-          Cette mission comprend les échanges avec les équipes produits, editoriales et créatives.
-          Au sein de l’agence WEAD, je suis également en charge du webmastering du site web et de la gestion/support de Furious, notre logiciel de gestion de projets, facturation & CRM."
+          Dans ce cadre, j'assiste la Digital Experience Team pour optimiser l'expérience utilisateur des visiteurs du site de la marque. Mon rôle consiste à gérer divers projets au quotidien, de l’organisation et du suivi des tâches dans Jira à la création de pages web : Landing Pages, Product List Pages et Product Detail Pages sur Salesforce, ainsi que la conception de leurs maquettes sur Figma. 
+          Cette mission comprend les échanges avec les équipes produits, éditoriales et créatives. 
+          Au sein de l’agence WEAD, je suis également en charge du webmastering du site web et de la gestion et du support de Furious, notre logiciel de gestion de projets, facturation et CRM."
           boldWords={[
             "Jira",
             "Salesforce",
